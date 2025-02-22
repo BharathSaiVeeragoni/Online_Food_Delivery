@@ -1,0 +1,13 @@
+
+.navbar-brand {
+    font-family:  "Noteworthy Bold", "NoeDisplay-Bold", "Cubano" ;
+}
+body{
+    background-color: #ffd206;
+    font-family: emoji;
+}
+ul.sidebar li{
+padding-left: 8px;
+border-bottom: 2px solid rgb(201, 17, 17);
+box-shadow:2px tomato;
+}

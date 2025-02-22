@@ -1,0 +1,113 @@
+.chainSection {
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+    height: auto;
+}
+
+.vendorBox {
+    border-radius: 10px;
+}
+
+.vendorBox img {
+    width: 350px;
+    height: 220px;
+    flex: 0 0 auto;
+    margin-right: 30px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.btnSection {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 50px;
+    right: 10px;
+    gap: 10px;
+}
+
+.btnSection button {
+    border: none;
+    background: none;
+}
+
+.btnIcons {
+    font-size: x-large;
+}
+
+
+/* firmSection */
+
+.firmSection {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.filterButtons {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.filterButtons button {
+    width: 10rem;
+    padding: 10px;
+    /* background-color:green; */
+    /* color: white; */
+
+}
+
+.firmGroup {
+    position: relative;
+}
+
+.firmGroup img {
+    width: 240px;
+    height: 180px;
+    flex: 0 0 auto;
+    margin-right: 30px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.firmDetails {
+    padding-left: 10px;
+}
+
+.firmOffer {
+    width: 100%;
+    max-width: 85%;
+    position: absolute;
+    bottom: 5px;
+    padding-left: 10px;
+    font-size: 1rem;
+    font-weight: 800;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: transparent;
+    background: linear-gradient(to bottom, rgba(50, 0, 0, 0.08), black);
+    color: white;
+    text-transform: uppercase;
+}
+
+.firmName {
+    color: black;
+}
+
+.firmArea {
+    font-size: small;
+    color: gray;
+}
+
+.activeButton {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+}
